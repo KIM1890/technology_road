@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {% load static %}
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/product/">
+    <script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js'%}"></script>
+    <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css'%}" rel="stylesheet">
+    <link href="{% static 'home/style.css' %}" rel="stylesheet">
+    <link href="{% static 'home/product.css' %}" rel="stylesheet">
+
+    <title>
+        {% block title %}
+        <!-- ten cua mot pages-->
+
+        {% endblock %}
+    </title>
+</head>
+<body>
+{% include "pages/header.html" %}
+{% block content %}
+<!--noi dung hien thi cua trang web-->
+{% endblock %}
+{% include "pages/footer.html" %}
+</body>
+</html>
