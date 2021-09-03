@@ -1,6 +1,6 @@
 {% extends "pages/base.html" %}
 <!--title of page home-->
-
+{% load static %}
 {% block title %}
 Home
 {% endblock %}
@@ -17,49 +17,59 @@ Home
         <div class="product-device shadow-sm d-none d-md-block"></div>
         <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
     </div>
-
     <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
         <div class="bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
             <div class="my-3 py-3">
-                <h2 class="display-5">Another headline</h2>
+                <img src="{% static 'home/img/brand3.png'%}">
+                <!--                <h2 class="display-5">Another headline</h2>-->
                 <p class="lead">And an even wittier subheading.</p>
             </div>
             <div class="bg-light shadow-sm mx-auto"
-                 style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+                 style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+                <img src="{% static 'home/img/product-5.jpg'%}">
+
+            </div>
+
         </div>
         <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
             <div class="my-3 p-3">
-                <h2 class="display-5">Another headline</h2>
+                <img src="{% static 'home/img/brand3.png'%}">
                 <p class="lead">And an even wittier subheading.</p>
             </div>
             <div class="bg-dark shadow-sm mx-auto"
-                 style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+                 style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+                <img src="{% static 'home/img/product-6.jpg'%}">
+            </div>
         </div>
     </div>
 
     <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
         <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
             <div class="my-3 p-3">
-                <h2 class="display-5">Another headline</h2>
+                <img src="{% static 'home/img/brand1.png'%}">
                 <p class="lead">And an even wittier subheading.</p>
             </div>
             <div class="bg-dark shadow-sm mx-auto"
-                 style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+                 style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+                <img src="{% static 'home/img/product-1.jpg'%}">
+            </div>
         </div>
         <div class="bg-primary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
             <div class="my-3 py-3">
-                <h2 class="display-5">Another headline</h2>
+                <img src="{% static 'home/img/brand3.png'%}">
                 <p class="lead">And an even wittier subheading.</p>
             </div>
             <div class="bg-light shadow-sm mx-auto"
-                 style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+                 style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+                <img src="{% static 'home/img/product-2.jpg'%}">
+            </div>
         </div>
     </div>
 
     <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
         <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
             <div class="my-3 p-3">
-                <h2 class="display-5">Another headline</h2>
+                <img src="{% static 'home/img/brand4.png'%}">
                 <p class="lead">And an even wittier subheading.</p>
             </div>
             <div class="bg-body shadow-sm mx-auto"
@@ -67,30 +77,36 @@ Home
         </div>
         <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
             <div class="my-3 py-3">
-                <h2 class="display-5">Another headline</h2>
+                <img src="{% static 'home/img/brand3.png'%}">
                 <p class="lead">And an even wittier subheading.</p>
             </div>
             <div class="bg-body shadow-sm mx-auto"
-                 style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+                 style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+                <img src="{% static 'home/img/product-4.jpg'%}">
+            </div>
         </div>
     </div>
 
     <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
         <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
             <div class="my-3 p-3">
-                <h2 class="display-5">Another headline</h2>
+                <img src="{% static 'home/img/brand5.png'%}">
                 <p class="lead">And an even wittier subheading.</p>
             </div>
             <div class="bg-body shadow-sm mx-auto"
-                 style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+                 style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+                <img src="{% static 'home/img/product-6.jpg'%}">
+            </div>
         </div>
         <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
             <div class="my-3 py-3">
-                <h2 class="display-5">Another headline</h2>
+                <img src="{% static 'home/img/brand3.png'%}">
                 <p class="lead">And an even wittier subheading.</p>
             </div>
             <div class="bg-body shadow-sm mx-auto"
-                 style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+                 style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+                <img src="{% static 'home/img/product-5.jpg'%}">
+            </div>
         </div>
     </div>
 </main>

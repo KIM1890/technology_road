@@ -1,0 +1,1 @@
+web: gunicorn technology_road.wsgi --log-file -
