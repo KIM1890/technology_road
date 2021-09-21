@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django.contrib.postgres',
     'stores',
+    'todo',
 ]
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -76,22 +77,22 @@ WSGI_APPLICATION = 'technology_road.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': BASE_DIR / 'db.sqlite3',
-#     }
-# }
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'dcmfl79k3vrvej',
-        'USER': 'ratbdkfjgzdcvz',
-        'PASSWORD': 'cf8e4f5e2dc4315452d5b5634aeba388e55fb90fc49797e794b8ef305447fbe1',
-        'HOST': 'ec2-54-83-137-206.compute-1.amazonaws.com',
-        'PORT': '5432',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
+#         'NAME': 'dcmfl79k3vrvej',
+#         'USER': 'ratbdkfjgzdcvz',
+#         'PASSWORD': 'cf8e4f5e2dc4315452d5b5634aeba388e55fb90fc49797e794b8ef305447fbe1',
+#         'HOST': 'ec2-54-83-137-206.compute-1.amazonaws.com',
+#         'PORT': '5432',
+#     }
+# }
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators

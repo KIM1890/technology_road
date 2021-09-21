@@ -27,3 +27,7 @@ class SupportPageView(TemplateView):
 
 class CartPageView(TemplateView):
     template_name = "pages/cart.html"
+
+
+class ComingSoonView(TemplateView):
+    template_name = "pages/coming_soon.html"
