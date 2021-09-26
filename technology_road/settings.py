@@ -24,6 +24,7 @@ SECRET_KEY = 'django-insecure--dkz%c31a+9c$!@@-qrp*!q813(kredl00c$p)9cpgb4vn-qt7
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
+WHITENOISE_AUTOREFRESH = True
 
 ALLOWED_HOSTS = ['127.0.0.1', 'technologyroad.herokuapp.com']
 # staticfiles
@@ -41,7 +42,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django.contrib.postgres',
     'stores',
-    'todo',
 ]
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
